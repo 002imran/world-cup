@@ -179,7 +179,37 @@ h1{
     text-align: center;
     font-size: 40px;
     padding-top: 5%;
-    color: none;
+    /* color: none; */
     /* background-color: aliceblue; */
     
  }
+.social-icons a{
+    background-color: none;
+    color: white;
+}
+
+
+/***************** Footer End ************* */
+
+
+
+/* ****************Game Page*************** */
+
+.match-container{
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 20px;
+}
+.match-card{
+        width: 90%;
+        height: 30vh;
+        /* background-color: antiquewhite; */
+        margin: 5%;
+        border: 1px solid rgb(235, 229, 229);
+        border-radius: 10px;
+}
+.match-card img{
+    padding-top: 40px;
+}
