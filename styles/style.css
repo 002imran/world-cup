@@ -1,3 +1,9 @@
+/* googel fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Lato:wght@400;700;900&family=Poppins:wght@500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 header{
     /* display: flex; */
@@ -29,3 +35,54 @@ h1{
 .image-side img{
     width: 100%;
 }
+
+.button{
+    background-color: rgb(195, 65, 65);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* **********Hero section start *********** */
+
+.hero{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+}
+.left-card{
+    height: 30vh;
+    width: auto;
+    background-color: rgb(20, 17, 17);
+    border-radius: 10px;
+
+}
+
+
+
+.information-card{    
+    text-decoration: none;
+    display: grid;
+    grid-column-gap: 40px;
+
+    padding: 40px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+   
+ }
+ .information-card a{
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .button-container{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+/*informatiob card end  */
