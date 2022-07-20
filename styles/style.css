@@ -351,30 +351,37 @@ h1 {
 }
 
 .left-card {
-    height: 40vh;
-    width: 100%;
+    height: 45vh;
+    width: 120%;
     background-color: #fff;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 5px;
 }
         
 .information-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 28px;
+    /* grid-column-gap: 28px; */
     background-color: none;
     text-align: center;
+    width: 90%;
+    
+    
 }
    
 .button-container {
     margin-top: 20px;
     background-color: white;
     border-radius: 5px;
-    margin-left: -20%;
+    margin-left: -40%;
+    
 }
 #upcoming-match {
     background-color: #fff;
     width: 100%;
+    
 }
 .match {
     border: 1px solid gray;
@@ -407,7 +414,7 @@ h1 {
 }
 .news-card{
     width: 100%;
-    height: 40vh;
+    height: 44vh;
     margin: 5%;
     border: 1px solid rgb(235, 229, 229);
     border-radius: 10px;
