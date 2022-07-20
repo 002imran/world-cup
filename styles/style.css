@@ -11,7 +11,20 @@ header{
     height: auto;
     margin: 5% 5%;
     border-radius: 20px;
+
+    animation-name: example;
+        animation-duration: 4s;
     
+}
+
+@keyframes example {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: rgb(98, 98, 70);
+    }
 }
 .container{
     margin-left: 10px;
@@ -43,7 +56,12 @@ h1 {
     font-size: 16px;
     border-radius: 5px;
     padding: 10px 20px;
-    color: white;
+    color: #ffffff;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+.button:hover{
+    opacity: 1;
 }
 
 
